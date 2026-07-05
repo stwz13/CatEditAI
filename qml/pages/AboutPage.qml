@@ -1,0 +1,33 @@
+import QtQuick 2.0
+import Sailfish.Silica 1.0
+
+Page {
+    objectName: "aboutPage"
+    allowedOrientations: Orientation.All
+
+    SilicaFlickable {
+        objectName: "flickable"
+        anchors.fill: parent
+        contentHeight: layout.height + Theme.paddingLarge
+
+        Column {
+            id: layout
+            objectName: "layout"
+            width: parent.width
+
+            PageHeader {
+                objectName: "pageHeader"
+                title: qsTr("About Application")
+            }
+
+            Label {
+                objectName: "descriptionText"
+                anchors { left: parent.left; right: parent.right; margins: Theme.horizontalPageMargin }
+                color: palette.highlightColor
+                font.pixelSize: Theme.fontSizeSmall
+                wrapMode: Text.WordWrap
+                text: qsTr("CatEdit AI edits photos offline on the device: replaces backgrounds, improves images, applies styles and exports the result to the gallery.")
+            }
+        }
+    }
+}

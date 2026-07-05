@@ -1,0 +1,9 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/share
+%dir /usr/lib/debug/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor
+%dir /usr/lib/debug/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib
+%dir /usr/lib/debug/usr/bin
+/usr/lib/debug/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/libopencv_core.so.407-0.1-1.x86_64.debug
+/usr/lib/debug/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/libopencv_imgproc.so.407-0.1-1.x86_64.debug
+/usr/lib/debug/usr/bin/ru.template.CatEditAiProSixSevenSigmaEditor-0.1-1.x86_64.debug

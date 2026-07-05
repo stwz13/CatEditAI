@@ -1,0 +1,1134 @@
+The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/3.19.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/3.19.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bc1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1bc1b.dir/build.make CMakeFiles/cmTC_1bc1b.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1 -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1bc1b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccJZlo2d.s
+GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2b693d72a697bfa4ce42acce466cab21
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/'
+ as -v -I /usr/include --64 -o CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o /tmp/ccJZlo2d.s
+GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_1bc1b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc1b.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -o cmTC_1bc1b 
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bc1b' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bc1b.'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc15ZgvE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1bc1b /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bc1b' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bc1b.'
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1bc1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1bc1b.dir/build.make CMakeFiles/cmTC_1bc1b.dir/build]
+  ignore line: [make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/']
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1 -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1bc1b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccJZlo2d.s]
+  ignore line: [GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2b693d72a697bfa4ce42acce466cab21]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/']
+  ignore line: [ as -v -I /usr/include --64 -o CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o /tmp/ccJZlo2d.s]
+  ignore line: [GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_1bc1b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc1b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -o cmTC_1bc1b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1bc1b' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1bc1b.']
+  link line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc15ZgvE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1bc1b /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc15ZgvE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1bc1b] ==> ignore
+    arg [/lib/Scrt1.o] ==> ignore
+    arg [/lib/crti.o] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o] ==> ignore
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..]
+    arg [CMakeFiles/cmTC_1bc1b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o] ==> ignore
+    arg [/lib/crtn.o] ==> ignore
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib;/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_726f1/fast && /usr/bin/make  -f CMakeFiles/cmTC_726f1.dir/build.make CMakeFiles/cmTC_726f1.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1plus -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_726f1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccroSZYY.s
+GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 13f6c6179c3686131d07dfb5bfc9ba90
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/'
+ as -v -I /usr/include --64 -o CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccroSZYY.s
+GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_726f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_726f1.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_726f1 
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_726f1' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_726f1.'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc97y3fa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_726f1 /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_726f1' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_726f1.'
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1]
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu]
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward]
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+    add: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1]
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1/x86_64-meego-linux-gnu]
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1/backward]
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  collapse include dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1/x86_64-meego-linux-gnu;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/include/c++/12.3.1/backward;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_726f1/fast && /usr/bin/make  -f CMakeFiles/cmTC_726f1.dir/build.make CMakeFiles/cmTC_726f1.dir/build]
+  ignore line: [make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/']
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1plus -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_726f1.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccroSZYY.s]
+  ignore line: [GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 13f6c6179c3686131d07dfb5bfc9ba90]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/']
+  ignore line: [ as -v -I /usr/include --64 -o CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccroSZYY.s]
+  ignore line: [GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_726f1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_726f1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_726f1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_726f1' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_726f1.']
+  link line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc97y3fa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_726f1 /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc97y3fa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_726f1] ==> ignore
+    arg [/lib/Scrt1.o] ==> ignore
+    arg [/lib/crti.o] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o] ==> ignore
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..]
+    arg [CMakeFiles/cmTC_726f1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o] ==> ignore
+    arg [/lib/crtn.o] ==> ignore
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib;/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_GNU_INLINE_ASM succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_322fb/fast && /usr/bin/make  -f CMakeFiles/cmTC_322fb.dir/build.make CMakeFiles/cmTC_322fb.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_322fb.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_GNU_INLINE_ASM  -O2 -DNDEBUG -o CMakeFiles/cmTC_322fb.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_322fb.a
+/usr/bin/cmake -P CMakeFiles/cmTC_322fb.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_322fb.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_322fb.a CMakeFiles/cmTC_322fb.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_322fb.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int test(int a) { asm volatile("" : "=r"(a) : "0"(a) : "memory"); return a; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_RECIP_NONE succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c41d8/fast && /usr/bin/make  -f CMakeFiles/cmTC_c41d8.dir/build.make CMakeFiles/cmTC_c41d8.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c41d8.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_RECIP_NONE  -O2 -DNDEBUG   -mrecip=none -o CMakeFiles/cmTC_c41d8.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_c41d8.a
+/usr/bin/cmake -P CMakeFiles/cmTC_c41d8.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c41d8.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_c41d8.a CMakeFiles/cmTC_c41d8.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_c41d8.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e74dd/fast && /usr/bin/make  -f CMakeFiles/cmTC_e74dd.dir/build.make CMakeFiles/cmTC_e74dd.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e74dd.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX  -mavx -O2 -DNDEBUG -o CMakeFiles/cmTC_e74dd.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_e74dd.a
+/usr/bin/cmake -P CMakeFiles/cmTC_e74dd.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e74dd.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_e74dd.a CMakeFiles/cmTC_e74dd.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_e74dd.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256 test(__m256 a, __m256 b) { return _mm256_mul_ps(a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_FMA succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14ba0/fast && /usr/bin/make  -f CMakeFiles/cmTC_14ba0.dir/build.make CMakeFiles/cmTC_14ba0.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14ba0.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_FMA  -mfma -mf16c -O2 -DNDEBUG -o CMakeFiles/cmTC_14ba0.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_14ba0.a
+/usr/bin/cmake -P CMakeFiles/cmTC_14ba0.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14ba0.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_14ba0.a CMakeFiles/cmTC_14ba0.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_14ba0.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256 test(__m256 s, __m256 a, __m256 b) { return _mm256_fmadd_ps(a, b, s); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_XOP succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_750db/fast && /usr/bin/make  -f CMakeFiles/cmTC_750db.dir/build.make CMakeFiles/cmTC_750db.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_750db.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_XOP  -mfma -mxop -O2 -DNDEBUG -o CMakeFiles/cmTC_750db.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_750db.a
+/usr/bin/cmake -P CMakeFiles/cmTC_750db.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750db.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_750db.a CMakeFiles/cmTC_750db.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_750db.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <x86intrin.h>
+__m128i test(__m128i s, __m128i a, __m128i b) { return _mm_maddd_epi16(a, b, s); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_F16C succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb9a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_bb9a5.dir/build.make CMakeFiles/cmTC_bb9a5.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bb9a5.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_F16C  -mf16c -O2 -DNDEBUG -o CMakeFiles/cmTC_bb9a5.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_bb9a5.a
+/usr/bin/cmake -P CMakeFiles/cmTC_bb9a5.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb9a5.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_bb9a5.a CMakeFiles/cmTC_bb9a5.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_bb9a5.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256 test(__m128i a) { return _mm256_cvtph_ps(a); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX2 succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6db6c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6db6c.dir/build.make CMakeFiles/cmTC_6db6c.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6db6c.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX2  -mfma -mf16c -mavx2 -O2 -DNDEBUG -o CMakeFiles/cmTC_6db6c.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_6db6c.a
+/usr/bin/cmake -P CMakeFiles/cmTC_6db6c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db6c.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_6db6c.a CMakeFiles/cmTC_6db6c.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_6db6c.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256i test(__m256i a, __m256i b) { return _mm256_madd_epi16(a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512 succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c199/fast && /usr/bin/make  -f CMakeFiles/cmTC_4c199.dir/build.make CMakeFiles/cmTC_4c199.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c199.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512  -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -O2 -DNDEBUG -o CMakeFiles/cmTC_4c199.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_4c199.a
+/usr/bin/cmake -P CMakeFiles/cmTC_4c199.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c199.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_4c199.a CMakeFiles/cmTC_4c199.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_4c199.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m512i test(__m512i a, __m512i b) { return _mm512_madd_epi16(a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_107e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_107e4.dir/build.make CMakeFiles/cmTC_107e4.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_107e4.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI  -mfma -mf16c -mavx2 -mavxvnni -O2 -DNDEBUG -o CMakeFiles/cmTC_107e4.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_107e4.a
+/usr/bin/cmake -P CMakeFiles/cmTC_107e4.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_107e4.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_107e4.a CMakeFiles/cmTC_107e4.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_107e4.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256i test(__m256i s, __m256i a, __m256i b) { return _mm256_dpwssd_avx_epi32(s, a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_VNNI succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_522d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_522d1.dir/build.make CMakeFiles/cmTC_522d1.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_522d1.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_VNNI  -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512vnni -O2 -DNDEBUG -o CMakeFiles/cmTC_522d1.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_522d1.a
+/usr/bin/cmake -P CMakeFiles/cmTC_522d1.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_522d1.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_522d1.a CMakeFiles/cmTC_522d1.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_522d1.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m512i test(__m512i s, __m512i a, __m512i b) { return _mm512_dpwssd_epi32(s, a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_BF16 succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5953b/fast && /usr/bin/make  -f CMakeFiles/cmTC_5953b.dir/build.make CMakeFiles/cmTC_5953b.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5953b.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_BF16  -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512bf16 -O2 -DNDEBUG -o CMakeFiles/cmTC_5953b.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_5953b.a
+/usr/bin/cmake -P CMakeFiles/cmTC_5953b.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5953b.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_5953b.a CMakeFiles/cmTC_5953b.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_5953b.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m256bh test(__m256bh s, __m512bh a, __m512bh b) { return _mm512_cvtneps_pbh(_mm512_dpbf16_ps(_mm512_cvtpbh_ps(s), a, b)); }
+__m512i test2(__m512 a) { __m256i _a = (__m256i)_mm512_cvtneps_pbh(a); return _mm512_inserti32x8(_mm512_castsi256_si512(_a), _a, 1); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX512_FP16 succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d45a6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d45a6.dir/build.make CMakeFiles/cmTC_d45a6.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d45a6.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX512_FP16  -mfma -mf16c -mavx512f -mavx512cd -mavx512bw -mavx512dq -mavx512vl -mavx512fp16 -O2 -DNDEBUG -o CMakeFiles/cmTC_d45a6.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX static library libcmTC_d45a6.a
+/usr/bin/cmake -P CMakeFiles/cmTC_d45a6.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d45a6.dir/link.txt --verbose=1
+/usr/bin/ar qc libcmTC_d45a6.a CMakeFiles/cmTC_d45a6.dir/src.cxx.o
+/usr/bin/ranlib libcmTC_d45a6.a
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <immintrin.h>
+__m512h test(__m512h s, __m512h a, __m512h b) { return _mm512_fmadd_ph(s, a, b); }
+__m512 test2(__m512 a) { return _mm512_cvtxph_ps(_mm512_cvtxps_ph(a)); }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6770/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6770.dir/build.make CMakeFiles/cmTC_c6770.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6770.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -o CMakeFiles/cmTC_c6770.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c6770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6770.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c6770.dir/src.cxx.o -o cmTC_c6770 
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cdfc3/fast && /usr/bin/make  -f CMakeFiles/cmTC_cdfc3.dir/build.make CMakeFiles/cmTC_cdfc3.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdfc3.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_cdfc3.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cdfc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdfc3.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_cdfc3.dir/src.cxx.o -o cmTC_cdfc3 
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c992/fast && /usr/bin/make  -f CMakeFiles/cmTC_8c992.dir/build.make CMakeFiles/cmTC_8c992.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c992.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR   -o CMakeFiles/cmTC_8c992.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx: In function 'int main()':
+/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx:2:33: warning: 'int somefunc()' is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ~~~~~~~~^~
+/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx:1:37: note: declared here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                                     ^~~~~~~~
+Linking CXX executable cmTC_8c992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c992.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_8c992.dir/src.cxx.o -o cmTC_8c992 
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5eaf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_5eaf7.dir/build.make CMakeFiles/cmTC_5eaf7.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1 -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_REENTRANT /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_5eaf7.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccAP1SKW.s
+GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2b693d72a697bfa4ce42acce466cab21
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/'
+ as -v -I /usr/include --64 -o CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o /tmp/ccAP1SKW.s
+GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.'
+Linking C executable cmTC_5eaf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaf7.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -o cmTC_5eaf7  -v 
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+Reading specs from /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5eaf7' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5eaf7.'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck4vGdh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5eaf7 /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5eaf7' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5eaf7.'
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5eaf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_5eaf7.dir/build.make CMakeFiles/cmTC_5eaf7.dir/build]
+  ignore line: [make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/']
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1 -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_REENTRANT /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_5eaf7.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/ccAP1SKW.s]
+  ignore line: [GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2b693d72a697bfa4ce42acce466cab21]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/']
+  ignore line: [ as -v -I /usr/include --64 -o CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o /tmp/ccAP1SKW.s]
+  ignore line: [GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.']
+  ignore line: [Linking C executable cmTC_5eaf7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaf7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -o cmTC_5eaf7  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_5eaf7' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_5eaf7.']
+  link line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck4vGdh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5eaf7 /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cck4vGdh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5eaf7] ==> ignore
+    arg [/lib/Scrt1.o] ==> ignore
+    arg [/lib/crti.o] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o] ==> ignore
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..]
+    arg [CMakeFiles/cmTC_5eaf7.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o] ==> ignore
+    arg [/lib/crtn.o] ==> ignore
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib;/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_66e1c/fast && /usr/bin/make  -f CMakeFiles/cmTC_66e1c.dir/build.make CMakeFiles/cmTC_66e1c.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1plus -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_GNU_SOURCE -D_REENTRANT /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_66e1c.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cconyypP.s
+GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"
+ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"
+ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)
+	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version UNKNOWN-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 13f6c6179c3686131d07dfb5bfc9ba90
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/'
+ as -v -I /usr/include --64 -o CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o /tmp/cconyypP.s
+GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.'
+Linking CXX executable cmTC_66e1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e1c.dir/link.txt --verbose=1
+/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -o cmTC_66e1c  -v 
+Using built-in specs.
+COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper
+Target: x86_64-meego-linux-gnu
+Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) 
+COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/
+LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/
+Reading specs from /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_66e1c' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_66e1c.'
+ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxHkH2L.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66e1c /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_66e1c' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_66e1c.'
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_66e1c/fast && /usr/bin/make  -f CMakeFiles/cmTC_66e1c.dir/build.make CMakeFiles/cmTC_66e1c.dir/build]
+  ignore line: [make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++   -fopenmp -v -o CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/']
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/cc1plus -quiet -v -I /usr/include -iprefix /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/ -isysroot / -D_GNU_SOURCE -D_REENTRANT /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_66e1c.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fopenmp -o /tmp/cconyypP.s]
+  ignore line: [GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include"]
+  ignore line: [ignoring duplicate directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/../../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../x86_64-meego-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/x86_64-meego-linux-gnu]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../include/c++/12.3.1/backward]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include]
+  ignore line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (x86_64-meego-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.5.omp)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version UNKNOWN-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 13f6c6179c3686131d07dfb5bfc9ba90]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/']
+  ignore line: [ as -v -I /usr/include --64 -o CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o /tmp/cconyypP.s]
+  ignore line: [GNU assembler version 2.40.90 (x86_64-meego-linux-gnu) using BFD version (GNU Binutils) 2.40.90.20230730]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o' '-c' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.']
+  ignore line: [Linking CXX executable cmTC_66e1c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66e1c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -o cmTC_66e1c  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/x86_64-meego-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper]
+  ignore line: [Target: x86_64-meego-linux-gnu]
+  ignore line: [Configured with: /home/abuild/rpmbuild/BUILD/cross--gcc-12.3.1+git3/upstream/configure --prefix=/opt/cross --mandir=/usr/share/man --datadir=/usr/share --build=x86_64-meego-linux-gnu --host=x86_64-meego-linux-gnu --target=x86_64-meego-linux-gnu --libdir=/opt/cross/lib64 --disable-fixed-point --disable-install-libiberty --disable-libcilkrts --disable-libgcj --disable-libmpx --disable-libstdcxx-pch --disable-libunwind-exceptions --disable-multilib --disable-nls --enable-__cxa_atexit --enable-checking=release --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-initfini-array --enable-languages=c,c++,lto --enable-linker-build-id --enable-lto --enable-plugin --enable-shared --enable-threads=posix --with-bugurl=https://auroraos.ru/ --with-isl=/home/abuild/rpmbuild/BUILD/isl-install --with-system-zlib --with-sysroot=/opt/cross/x86_64-meego-linux-gnu/sys-root --disable-bootstrap --with-arch=x86-64 --with-fpmatch=sse --with-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-as=/opt/cross/bin/x86_64-meego-linux-gnu-as --with-gnu-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld --with-ld=/opt/cross/bin/x86_64-meego-linux-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.3.1 20230626 (Aurora OS gcc 12.3.1+git3-1.6.3.omp) (GCC) ]
+  ignore line: [COMPILER_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_66e1c' '-v' '--sysroot=/' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib' '-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib' '-I' '/usr/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_66e1c.']
+  link line: [ /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2 -plugin /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so -plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccxHkH2L.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_66e1c /lib/Scrt1.o /lib/crti.o /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib -L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../.. CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o /lib/crtn.o]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../libexec/gcc/x86_64-meego-linux-gnu/12.3.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccxHkH2L.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66e1c] ==> ignore
+    arg [/lib/Scrt1.o] ==> ignore
+    arg [/lib/crti.o] ==> ignore
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtbeginS.o] ==> ignore
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+    arg [-L/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..]
+    arg [CMakeFiles/cmTC_66e1c.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/crtendS.o] ==> ignore
+    arg [/lib/crtn.o] ==> ignore
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib]
+  collapse library dir [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib] ==> [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../../../lib64] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/bin/../lib64/gcc/x86_64-meego-linux-gnu/12.3.1/../../..] ==> [/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/usr/lib;/srv/mer/targets/AuroraOS-5.2.0.180-x86_64.default/lib;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc/x86_64-meego-linux-gnu/12.3.1;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64/gcc;/srv/mer/toolings/AuroraOS-5.2.0.180/opt/cross/lib64;/lib64;/usr/lib64]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e102/fast && /usr/bin/make  -f CMakeFiles/cmTC_1e102.dir/build.make CMakeFiles/cmTC_1e102.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e102.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1e102.dir/CheckIncludeFile.c.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1e102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e102.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1e102.dir/CheckIncludeFile.c.o -o cmTC_1e102 
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a4ddf/fast && /usr/bin/make  -f CMakeFiles/cmTC_a4ddf.dir/build.make CMakeFiles/cmTC_a4ddf.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4ddf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a4ddf.dir/src.c.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4ddf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a4ddf.dir/src.c.o -o cmTC_a4ddf 
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

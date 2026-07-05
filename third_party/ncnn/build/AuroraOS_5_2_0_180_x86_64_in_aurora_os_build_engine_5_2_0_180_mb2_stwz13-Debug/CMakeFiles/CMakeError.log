@@ -1,0 +1,48 @@
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT8 failed with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b1884/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1884.dir/build.make CMakeFiles/cmTC_b1884.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b1884.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT8  -mfma -mf16c -mavx2 -mavxvnni -mavxvnniint8 -O2 -DNDEBUG -o CMakeFiles/cmTC_b1884.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+x86_64-meego-linux-gnu-c++: error: unrecognized command-line option '-mavxvnniint8'; did you mean '-mavxvnni'?
+make[1]: *** [CMakeFiles/cmTC_b1884.dir/build.make:85: CMakeFiles/cmTC_b1884.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_b1884/fast] Error 2
+
+
+Source file was:
+#include <immintrin.h>
+__m256i test(__m256i s, __m256i a, __m256i b) { return _mm256_dpbssd_epi32(s, a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT16 failed with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ba68/fast && /usr/bin/make  -f CMakeFiles/cmTC_4ba68.dir/build.make CMakeFiles/cmTC_4ba68.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ba68.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_VNNI_INT16  -mfma -mf16c -mavx2 -mavxvnni -mavxvnniint16 -O2 -DNDEBUG -o CMakeFiles/cmTC_4ba68.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+x86_64-meego-linux-gnu-c++: error: unrecognized command-line option '-mavxvnniint16'; did you mean '-mavxvnni'?
+make[1]: *** [CMakeFiles/cmTC_4ba68.dir/build.make:85: CMakeFiles/cmTC_4ba68.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_4ba68/fast] Error 2
+
+
+Source file was:
+#include <immintrin.h>
+__m256i test(__m256i s, __m256i a, __m256i b) { return _mm256_dpwsud_epi32(s, a, b); }
+Performing C++ SOURCE FILE Test NCNN_COMPILER_SUPPORT_X86_AVX_NE_CONVERT failed with the following output:
+Change Dir: /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e315a/fast && /usr/bin/make  -f CMakeFiles/cmTC_e315a.dir/build.make CMakeFiles/cmTC_e315a.dir/build
+make[1]: Entering directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e315a.dir/src.cxx.o
+/usr/bin/c++ -DNCNN_COMPILER_SUPPORT_X86_AVX_NE_CONVERT  -mfma -mf16c -mavx2 -mavxneconvert -O2 -DNDEBUG -o CMakeFiles/cmTC_e315a.dir/src.cxx.o -c /c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp/src.cxx
+x86_64-meego-linux-gnu-c++: error: unrecognized command-line option '-mavxneconvert'
+make[1]: *** [CMakeFiles/cmTC_e315a.dir/build.make:85: CMakeFiles/cmTC_e315a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/c/Users/stwz13/catedit-aurora/third_party/ncnn/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:140: cmTC_e315a/fast] Error 2
+
+
+Source file was:
+#include <immintrin.h>
+__m128bh test(__m256 a) { return _mm256_cvtneps_avx_pbh(a); }

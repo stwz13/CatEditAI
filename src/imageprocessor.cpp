@@ -105,7 +105,7 @@ void ImageProcessor::process(const QString &filePath)
 
 void ImageProcessor::removeBackground()
 {
-    if (!requestOperation(tr("Removing background...")))
+    if (!requestOperation(tr("AI segmentation...")))
         return;
     emit backgroundRequested();
 }

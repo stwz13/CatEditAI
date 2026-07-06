@@ -43,8 +43,8 @@
     </message>
     <message>
         <location filename="../src/imageprocessor.cpp" line="108"/>
-        <source>Removing background...</source>
-        <translation>Удаление фона...</translation>
+        <source>AI segmentation...</source>
+        <translation>ИИ-сегментация...</translation>
     </message>
     <message>
         <location filename="../src/imageprocessor.cpp" line="115"/>
@@ -140,102 +140,92 @@
         <translation>Выбрать другое фото</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="108"/>
-        <source>CatEdit AI</source>
-        <translation>CatEdit AI</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="109"/>
-        <source>Choose a photo</source>
-        <translation>Выберите фото</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="110"/>
+        <location filename="../qml/pages/MainPage.qml" line="106"/>
         <source>Gallery</source>
         <translation>Галерея</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>Files</source>
         <translation>Файлы</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="145"/>
+        <location filename="../qml/pages/MainPage.qml" line="177"/>
+        <source>AI Cutout</source>
+        <translation>ИИ-вырезка</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="175"/>
         <source>Filters</source>
         <translation>Фильтры</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="146"/>
-        <source>Adjust</source>
-        <translation>Коррекция</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="147"/>
-        <source>Background</source>
-        <translation>Фон</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="148"/>
-        <source>Auto</source>
-        <translation>Авто</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="149"/>
+        <location filename="../qml/pages/MainPage.qml" line="179"/>
         <source>AI Style</source>
         <translation>ИИ-стиль</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="150"/>
+        <location filename="../qml/pages/MainPage.qml" line="176"/>
+        <source>Adjust</source>
+        <translation>Коррекция</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="178"/>
+        <source>Auto</source>
+        <translation>Авто</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="180"/>
         <source>B/W</source>
         <translation>Ч/Б</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="151"/>
+        <location filename="../qml/pages/MainPage.qml" line="181"/>
         <source>Sepia</source>
         <translation>Сепия</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="152"/>
+        <location filename="../qml/pages/MainPage.qml" line="182"/>
         <source>Blur</source>
         <translation>Блюр</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="153"/>
+        <location filename="../qml/pages/MainPage.qml" line="183"/>
         <source>Sharpen</source>
         <translation>Резкость</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="154"/>
+        <location filename="../qml/pages/MainPage.qml" line="184"/>
         <source>Edges</source>
         <translation>Контуры</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="155"/>
+        <location filename="../qml/pages/MainPage.qml" line="185"/>
         <source>Cartoon</source>
         <translation>Мульт</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="156"/>
+        <location filename="../qml/pages/MainPage.qml" line="186"/>
         <source>Invert</source>
         <translation>Инверсия</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="157"/>
+        <location filename="../qml/pages/MainPage.qml" line="187"/>
         <source>Light</source>
         <translation>Свет</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="158"/>
+        <location filename="../qml/pages/MainPage.qml" line="188"/>
         <source>Contrast</source>
         <translation>Контраст</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="159"/>
+        <location filename="../qml/pages/MainPage.qml" line="189"/>
         <source>Color</source>
         <translation>Цвет</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="160"/>
+        <location filename="../qml/pages/MainPage.qml" line="190"/>
         <source>Apply</source>
         <translation>Применить</translation>
     </message>
@@ -243,134 +233,144 @@
 <context>
     <name>ProcessingWorker</name>
     <message>
-        <location filename="../src/processingworker.cpp" line="384"/>
+        <location filename="../src/processingworker.cpp" line="229"/>
         <source>Unable to open image</source>
         <translation>Не удалось открыть изображение</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="384"/>
-        <location filename="../src/processingworker.cpp" line="634"/>
+        <location filename="../src/processingworker.cpp" line="229"/>
+        <location filename="../src/processingworker.cpp" line="497"/>
         <source>Select an image</source>
         <translation type="unfinished">Выберите изображение</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="394"/>
+        <location filename="../src/processingworker.cpp" line="239"/>
         <source>Image loaded. Choose a tool.</source>
         <translation>Изображение загружено. Выберите инструмент.</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="411"/>
+        <location filename="../src/processingworker.cpp" line="268"/>
+        <source>AI segmentation failed</source>
+        <translation>ИИ-сегментация не удалась</translation>
+    </message>
+    <message>
+        <location filename="../src/processingworker.cpp" line="269"/>
         <source>Unable to remove background</source>
         <translation>Не удалось удалить фон</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="417"/>
-        <source>Background replaced: %1%. Prep: %2 ms, segmentation: %3 ms, post: %4 ms</source>
-        <translation>Фон заменен: %1%. Подготовка: %2 мс, сегментация: %3 мс, постобработка: %4 мс</translation>
+        <location filename="../src/processingworker.cpp" line="277"/>
+        <source>AI background removed</source>
+        <translation>Фон удалён ИИ</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="436"/>
+        <location filename="../src/processingworker.cpp" line="278"/>
+        <source>Background replaced</source>
+        <translation>Фон заменён</translation>
+    </message>
+    <message>
+        <location filename="../src/processingworker.cpp" line="299"/>
         <source>Auto enhancement applied. Time: %1 ms</source>
         <translation>Автоулучшение применено. Время: %1 мс</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="447"/>
+        <location filename="../src/processingworker.cpp" line="310"/>
         <source>Black and white style applied</source>
         <translation>Черно-белый стиль применен</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="458"/>
+        <location filename="../src/processingworker.cpp" line="321"/>
         <source>Sepia style applied</source>
         <translation>Сепия применена</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="469"/>
+        <location filename="../src/processingworker.cpp" line="332"/>
         <source>Blur applied</source>
         <translation>Размытие применено</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="480"/>
+        <location filename="../src/processingworker.cpp" line="343"/>
         <source>Sharpen applied</source>
         <translation>Резкость применена</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="491"/>
+        <location filename="../src/processingworker.cpp" line="354"/>
         <source>Edges style applied</source>
         <translation>Контуры применены</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="502"/>
+        <location filename="../src/processingworker.cpp" line="365"/>
         <source>Cartoon style applied</source>
         <translation>Мульт-стиль применен</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="513"/>
+        <location filename="../src/processingworker.cpp" line="376"/>
         <source>Neural style unavailable</source>
         <translation>Нейростиль недоступен</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="514"/>
+        <location filename="../src/processingworker.cpp" line="377"/>
         <source>Build ncnn and place models/mosaic.bin (see third_party/ncnn/README.md)</source>
         <translation>Соберите ncnn и добавьте models/mosaic.bin (см. third_party/ncnn/README.md)</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="524"/>
+        <location filename="../src/processingworker.cpp" line="387"/>
         <source>Neural style failed</source>
         <translation>Не удалось применить нейростиль</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="530"/>
+        <location filename="../src/processingworker.cpp" line="393"/>
         <source>Neural style applied. Prep: %1 ms, inference: %2 ms, post: %3 ms</source>
         <translation>Нейростиль применен. Подготовка: %1 мс, инференс: %2 мс, пост: %3 мс</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="544"/>
+        <location filename="../src/processingworker.cpp" line="407"/>
         <source>Colors inverted</source>
         <translation>Цвета инвертированы</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="555"/>
-        <location filename="../src/processingworker.cpp" line="584"/>
+        <location filename="../src/processingworker.cpp" line="418"/>
+        <location filename="../src/processingworker.cpp" line="447"/>
         <source>Manual correction applied</source>
         <translation>Ручная коррекция применена</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="579"/>
+        <location filename="../src/processingworker.cpp" line="442"/>
         <source>No correction to apply</source>
         <translation>Нет коррекции для применения</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="570"/>
+        <location filename="../src/processingworker.cpp" line="433"/>
         <source>Manual correction preview</source>
         <translation>Предпросмотр ручной коррекции</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="594"/>
+        <location filename="../src/processingworker.cpp" line="457"/>
         <source>Nothing to undo</source>
         <translation>Нечего отменять</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="599"/>
+        <location filename="../src/processingworker.cpp" line="462"/>
         <source>Last action undone</source>
         <translation>Последнее действие отменено</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="611"/>
+        <location filename="../src/processingworker.cpp" line="474"/>
         <source>Reset to original</source>
         <translation>Сброшено к оригиналу</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="622"/>
+        <location filename="../src/processingworker.cpp" line="485"/>
         <source>Unable to export image</source>
         <translation>Не удалось экспортировать изображение</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="626"/>
+        <location filename="../src/processingworker.cpp" line="489"/>
         <source>Exported to gallery: %1</source>
         <translation>Экспортировано в галерею: %1</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="634"/>
+        <location filename="../src/processingworker.cpp" line="497"/>
         <source>Select an image first</source>
         <translation>Сначала выберите изображение</translation>
     </message>

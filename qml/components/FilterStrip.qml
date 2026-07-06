@@ -51,7 +51,7 @@ Flickable {
         spacing: Theme.paddingSmall
 
         AppActionButton {
-            width: Theme.itemSizeExtraLarge * 1.05
+            width: Theme.itemSizeExtraLarge * 1.18
             height: parent.height
             text: strip.backgroundText
             backgroundColor: strip.primary

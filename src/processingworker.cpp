@@ -1,6 +1,8 @@
 #include "processingworker.h"
 
+#include "imagefilters.h"
 #include "neuralstyleengine.h"
+#include "segmentationengine.h"
 
 #include <QColor>
 #include <QDateTime>
@@ -10,8 +12,6 @@
 #include <QImageReader>
 #include <QStandardPaths>
 #include <QUrl>
-
-#include "opencv2/imgproc.hpp"
 
 namespace {
 
@@ -55,88 +55,6 @@ QImage boostedContrastAndSaturationImage(const QImage &source)
     }
 
     return image;
-}
-
-cv::Mat qImageToRgbMat(QImage &image)
-{
-    return cv::Mat(image.height(), image.width(), CV_8UC3, image.bits(),
-                   image.bytesPerLine());
-}
-
-QImage rgbMatToQImage(const cv::Mat &mat)
-{
-    if (mat.empty())
-        return QImage();
-
-    return QImage(mat.data, mat.cols, mat.rows, mat.step, QImage::Format_RGB888).copy();
-}
-
-QImage replaceBackgroundUsingGrabCut(const QImage &source, const QColor &color,
-                                     qreal *backgroundPercent, qint64 *preprocessMs,
-                                     qint64 *segmentationMs, qint64 *postprocessMs)
-{
-    QElapsedTimer stageTimer;
-    stageTimer.start();
-    QImage rgbImage = source.convertToFormat(QImage::Format_RGB888);
-
-    const int width = rgbImage.width();
-    const int height = rgbImage.height();
-    const int total = width * height;
-    if (total <= 0) {
-        if (backgroundPercent)
-            *backgroundPercent = 0.0;
-        return rgbImage;
-    }
-
-    cv::Mat fullImage = qImageToRgbMat(rgbImage);
-    cv::Mat processingImage;
-    cv::resize(fullImage, processingImage, cv::Size(qMax(1, width / 10), qMax(1, height / 10)),
-               0, 0, cv::INTER_AREA);
-
-    const int processingWidth = processingImage.cols;
-    const int processingHeight = processingImage.rows;
-    cv::Mat smallMask(processingImage.size(), CV_8UC1, cv::Scalar(cv::GC_BGD));
-
-    const int insetX = qMax(2, processingWidth / 20);
-    const int insetY = qMax(2, processingHeight / 20);
-    cv::Rect foregroundRect(insetX, insetY, qMax(1, processingWidth - 2 * insetX),
-                            qMax(1, processingHeight - 2 * insetY));
-
-    if (preprocessMs)
-        *preprocessMs = stageTimer.elapsed();
-
-    stageTimer.restart();
-    cv::Mat backgroundModel;
-    cv::Mat foregroundModel;
-    cv::grabCut(processingImage, smallMask, foregroundRect, backgroundModel, foregroundModel, 3,
-                cv::GC_INIT_WITH_RECT);
-    if (segmentationMs)
-        *segmentationMs = stageTimer.elapsed();
-
-    stageTimer.restart();
-    cv::Mat mask;
-    cv::resize(smallMask, mask, cv::Size(width, height), 0, 0, cv::INTER_NEAREST);
-
-    int backgroundPixels = 0;
-    const cv::Vec3b replacement(color.red(), color.green(), color.blue());
-    for (int y = 0; y < height; ++y) {
-        const uchar *maskLine = mask.ptr<uchar>(y);
-        cv::Vec3b *imageLine = fullImage.ptr<cv::Vec3b>(y);
-        for (int x = 0; x < width; ++x) {
-            const uchar value = maskLine[x];
-            if (value == cv::GC_BGD || value == cv::GC_PR_BGD) {
-                imageLine[x] = replacement;
-                ++backgroundPixels;
-            }
-        }
-    }
-
-    if (backgroundPercent)
-        *backgroundPercent = qreal(backgroundPixels) * 100.0 / qreal(total);
-    if (postprocessMs)
-        *postprocessMs = stageTimer.elapsed();
-
-    return rgbMatToQImage(fullImage);
 }
 
 QImage autoEnhancedImage(const QImage &source)
@@ -269,79 +187,6 @@ QImage adjustedImage(const QImage &source, int brightness, int contrast, int sat
     return image;
 }
 
-QImage blurredImage(const QImage &source)
-{
-    QImage rgbImage = source.convertToFormat(QImage::Format_RGB888);
-    cv::Mat image = qImageToRgbMat(rgbImage);
-    cv::Mat result;
-    cv::GaussianBlur(image, result, cv::Size(13, 13), 0, 0);
-    return rgbMatToQImage(result);
-}
-
-QImage sharpenedImage(const QImage &source)
-{
-    QImage rgbImage = source.convertToFormat(QImage::Format_RGB888);
-    cv::Mat image = qImageToRgbMat(rgbImage);
-    cv::Mat result;
-    const cv::Mat kernel = (cv::Mat_<float>(3, 3)
-            << 0, -1, 0,
-               -1, 5, -1,
-                0, -1, 0);
-    cv::filter2D(image, result, image.depth(), kernel);
-    return rgbMatToQImage(result);
-}
-
-QImage edgesImage(const QImage &source)
-{
-    QImage rgbImage = source.convertToFormat(QImage::Format_RGB888);
-    cv::Mat image = qImageToRgbMat(rgbImage);
-    cv::Mat gray;
-    cv::Mat edges;
-    cv::Mat inverted;
-    cv::Mat result;
-
-    cv::cvtColor(image, gray, cv::COLOR_RGB2GRAY);
-    cv::GaussianBlur(gray, gray, cv::Size(5, 5), 0, 0);
-    cv::Canny(gray, edges, 70, 150);
-    cv::bitwise_not(edges, inverted);
-    cv::cvtColor(inverted, result, cv::COLOR_GRAY2RGB);
-    return rgbMatToQImage(result);
-}
-
-QImage cartoonImage(const QImage &source)
-{
-    QImage rgbImage = source.convertToFormat(QImage::Format_RGB888);
-    cv::Mat image = qImageToRgbMat(rgbImage);
-    cv::Mat smoothed;
-    cv::Mat gray;
-    cv::Mat edges;
-    cv::Mat result = image.clone();
-
-    cv::bilateralFilter(image, smoothed, 9, 80, 80);
-    cv::cvtColor(smoothed, gray, cv::COLOR_RGB2GRAY);
-    cv::medianBlur(gray, gray, 7);
-    cv::Canny(gray, edges, 65, 130);
-
-    for (int y = 0; y < smoothed.rows; ++y) {
-        const uchar *edgeLine = edges.ptr<uchar>(y);
-        const cv::Vec3b *smoothLine = smoothed.ptr<cv::Vec3b>(y);
-        cv::Vec3b *resultLine = result.ptr<cv::Vec3b>(y);
-        for (int x = 0; x < smoothed.cols; ++x) {
-            if (edgeLine[x] > 0) {
-                resultLine[x] = cv::Vec3b(20, 20, 24);
-            } else {
-                cv::Vec3b color = smoothLine[x];
-                color[0] = uchar((color[0] / 32) * 32 + 16);
-                color[1] = uchar((color[1] / 32) * 32 + 16);
-                color[2] = uchar((color[2] / 32) * 32 + 16);
-                resultLine[x] = color;
-            }
-        }
-    }
-
-    return rgbMatToQImage(result);
-}
-
 QImage invertedImage(const QImage &source)
 {
     QImage image = source.convertToFormat(QImage::Format_RGB888);
@@ -404,17 +249,35 @@ void ProcessingWorker::removeBackground()
     qint64 preprocessMs = 0;
     qint64 segmentationMs = 0;
     qint64 postprocessMs = 0;
-    const QImage result = replaceBackgroundUsingGrabCut(m_current, QColor(QStringLiteral("#00ff00")),
-                                                        &backgroundPercent, &preprocessMs,
-                                                        &segmentationMs, &postprocessMs);
+    QImage result;
+
+    if (SegmentationEngine::instance().isAvailable()) {
+        result = SegmentationEngine::instance().replaceBackground(
+                m_current, QColor(QStringLiteral("#00ff00")), &backgroundPercent, &preprocessMs,
+                &segmentationMs, &postprocessMs);
+    } else {
+        QElapsedTimer stageTimer;
+        stageTimer.start();
+        result = ImageFilters::replaceBackground(m_current, QColor(QStringLiteral("#00ff00")),
+                                                 &backgroundPercent);
+        segmentationMs = stageTimer.elapsed();
+    }
+
     if (result.isNull()) {
-        emitState(tr("Unable to remove background"), tr("Unable to remove background"));
+        const QString error = SegmentationEngine::instance().isAvailable()
+                ? tr("AI segmentation failed")
+                : tr("Unable to remove background");
+        emitState(error, error);
         return;
     }
 
     pushHistory();
     m_current = result;
-    emitState(tr("Background replaced: %1%. Prep: %2 ms, segmentation: %3 ms, post: %4 ms")
+    const QString engineLabel = SegmentationEngine::instance().isAvailable()
+            ? tr("AI background removed")
+            : tr("Background replaced");
+    emitState(QStringLiteral("%1: %2%. Prep: %3 ms, segmentation: %4 ms, post: %5 ms")
+                      .arg(engineLabel)
                       .arg(backgroundPercent, 0, 'f', 1)
                       .arg(preprocessMs)
                       .arg(segmentationMs)
@@ -465,7 +328,7 @@ void ProcessingWorker::blur()
 
     finishAdjustmentSession();
     pushHistory();
-    m_current = blurredImage(m_current);
+    m_current = ImageFilters::gaussianBlur(m_current, 6);
     emitState(tr("Blur applied"));
 }
 
@@ -476,7 +339,7 @@ void ProcessingWorker::sharpen()
 
     finishAdjustmentSession();
     pushHistory();
-    m_current = sharpenedImage(m_current);
+    m_current = ImageFilters::sharpen(m_current);
     emitState(tr("Sharpen applied"));
 }
 
@@ -487,7 +350,7 @@ void ProcessingWorker::edges()
 
     finishAdjustmentSession();
     pushHistory();
-    m_current = edgesImage(m_current);
+    m_current = ImageFilters::edges(m_current);
     emitState(tr("Edges style applied"));
 }
 
@@ -498,7 +361,7 @@ void ProcessingWorker::cartoon()
 
     finishAdjustmentSession();
     pushHistory();
-    m_current = cartoonImage(m_current);
+    m_current = ImageFilters::cartoon(m_current);
     emitState(tr("Cartoon style applied"));
 }
 

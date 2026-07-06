@@ -1,5 +1,5 @@
 %define __provides_exclude_from ^%{_datadir}/%{name}/lib/.*$
-%define __requires_exclude ^(libopencv_core.*|libopencv_imgproc.*|libncnn.*|libstdc++.*)$
+%define __requires_exclude ^(libncnn.*|libstdc++.*)$
 
 Name:       ru.template.CatEditAiProSixSevenSigmaEditor
 Summary:    CatEdit AI

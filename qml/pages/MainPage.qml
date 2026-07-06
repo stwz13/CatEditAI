@@ -11,15 +11,15 @@ Page {
     property string selectedPath
     property string selectedFileName
 
-    property color pageGradientTop: "#C4B9F2"
-    property color pageGradientBottom: "#E8E2FA"
-    property color primary: "#5746A3"
-    property color accent: "#8B7FD4"
+    property color pageGradientTop: "#B8AAE8"
+    property color pageGradientBottom: "#EDE8FA"
+    property color primary: "#4A3B96"
+    property color accent: "#7B6FD0"
     property color lilac: "#C4B9F2"
     property color lavender: "#9D8FE0"
-    property color mint: "#7EC8D4"
+    property color mint: "#6BBEC9"
     property color cardColor: "#FFFFFF"
-    property color softCardColor: "#F3EFFE"
+    property color softCardColor: "#F0EBFF"
     property color cardBorder: "#B8A9E8"
     property color textColor: "#1E1833"
     property color secondaryTextColor: "#5C5480"
@@ -99,14 +99,10 @@ Page {
                 visible: !imageProcessor.hasImage
                 actionsEnabled: !imageProcessor.busy
                 textColor: page.textColor
-                secondaryTextColor: page.secondaryTextColor
                 primary: page.primary
                 accent: page.accent
                 softCardColor: page.softCardColor
                 cardColor: page.cardColor
-                cardBorder: page.cardBorder
-                titleText: qsTr("CatEdit AI")
-                promptText: qsTr("Choose a photo")
                 galleryText: qsTr("Gallery")
                 filesText: qsTr("Files")
                 onGalleryClicked: pageStack.push(imagePickerComponent)
@@ -118,6 +114,40 @@ Page {
                 anchors.fill: parent
                 visible: imageProcessor.hasImage
 
+                Rectangle {
+                    id: fileHeader
+                    anchors {
+                        left: parent.left
+                        right: parent.right
+                        top: parent.top
+                        leftMargin: Theme.horizontalPageMargin
+                        rightMargin: Theme.horizontalPageMargin
+                        topMargin: Theme.paddingSmall
+                    }
+                    height: visible ? editorHeader.implicitHeight + Theme.paddingSmall : 0
+                    radius: Theme.paddingSmall
+                    color: page.softCardColor
+                    border.color: page.cardBorder
+                    border.width: 1
+                    visible: page.selectedFileName.length > 0
+
+                    Label {
+                        id: editorHeader
+                        anchors {
+                            left: parent.left
+                            right: parent.right
+                            verticalCenter: parent.verticalCenter
+                            leftMargin: Theme.paddingMedium
+                            rightMargin: Theme.paddingMedium
+                        }
+                        color: page.textColor
+                        font.pixelSize: Theme.fontSizeExtraSmall
+                        elide: Text.ElideMiddle
+                        horizontalAlignment: Text.AlignHCenter
+                        text: page.selectedFileName
+                    }
+                }
+
                 EditingTray {
                     id: editingTray
                     objectName: "editingTray"
@@ -128,7 +158,7 @@ Page {
                         margins: Theme.horizontalPageMargin
                         bottomMargin: Theme.paddingMedium
                     }
-                    height: Math.min(page.height * 0.28, Theme.itemSizeExtraLarge * 2.2)
+                    height: Math.min(page.height * 0.30, Theme.itemSizeExtraLarge * 2.4)
                     actionsEnabled: !imageProcessor.busy
                     visualEnabled: true
                     primary: page.primary
@@ -144,7 +174,7 @@ Page {
                     primaryForeground: page.primaryForeground
                     filtersTitle: qsTr("Filters")
                     correctionTitle: qsTr("Adjust")
-                    backgroundText: qsTr("Background")
+                    backgroundText: qsTr("AI Cutout")
                     enhanceText: qsTr("Auto")
                     styleText: qsTr("AI Style")
                     bwText: qsTr("B/W")
@@ -177,9 +207,10 @@ Page {
                     anchors {
                         left: parent.left
                         right: parent.right
-                        top: parent.top
+                        top: fileHeader.visible ? fileHeader.bottom : parent.top
                         bottom: editingTray.top
-                        margins: Theme.horizontalPageMargin
+                        leftMargin: Theme.horizontalPageMargin
+                        rightMargin: Theme.horizontalPageMargin
                         topMargin: Theme.paddingSmall
                         bottomMargin: Theme.paddingSmall
                     }

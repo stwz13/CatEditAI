@@ -15,7 +15,7 @@ CXX           = g++
 DEFINES       = -DQT_MESSAGELOGCONTEXT -DQT_NO_DEBUG -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g -pipe -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -specs=/usr/lib/rpm/aurora/pie-pic-cc1 -fstack-protector-strong --param=ssp-buffer-size=4 -fexceptions -O2 -Wall -Wformat -Wformat-security -m64 -mtune=generic -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -g -pipe -Wp,-U_FORTIFY_SOURCE,-D_FORTIFY_SOURCE=3 -specs=/usr/lib/rpm/aurora/pie-pic-cc1 -fstack-protector-strong --param=ssp-buffer-size=4 -fexceptions -O2 -Wall -Wformat -Wformat-security -m64 -mtune=generic -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -W -D_REENTRANT -fPIC $(DEFINES)
-INCPATH       = -I../../../catedit-aurora -I. -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv -I../../third_party/opencv/source/modules/core/include -I../../third_party/opencv/source/modules/imgproc/include -I../../third_party/opencv/source/include -isystem /usr/include/auroraapp -isystem /usr/include/appdir-cpp -isystem /usr/include/appdir -isystem /usr/include/appmanifest-glib -isystem /usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -isystem /usr/include/mdeclarativecache5 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtQuick -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtQml -isystem /usr/include/qt5/QtNetwork -isystem /usr/include/qt5/QtCore -I. -I/usr/share/qt5/mkspecs/linux-g++
+INCPATH       = -I../../../catedit-aurora -I. -isystem /usr/include/auroraapp -isystem /usr/include/appdir-cpp -isystem /usr/include/appdir -isystem /usr/include/appmanifest-glib -isystem /usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -isystem /usr/include/mdeclarativecache5 -isystem /usr/include/qt5 -isystem /usr/include/qt5/QtQuick -isystem /usr/include/qt5/QtGui -isystem /usr/include/qt5/QtQml -isystem /usr/include/qt5/QtNetwork -isystem /usr/include/qt5/QtCore -I. -I/usr/share/qt5/mkspecs/linux-g++
 QMAKE         = /usr/lib64/qt5/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -36,7 +36,7 @@ DISTNAME      = ru.template.CatEditAiProSixSevenSigmaEditor1.0.0
 DISTDIR = /c/Users/stwz13/catedit-aurora/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/.tmp/ru.template.CatEditAiProSixSevenSigmaEditor1.0.0
 LINK          = g++
 LFLAGS        = -Wl,--as-needed -specs=/usr/lib/rpm/aurora/pie-pic-ld -Wl,-z,relro,-z,now -Wl,-O1 -Wl,-rpath,/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib
-LIBS          = $(SUBLIBS) /c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/lib/libopencv_core.so.407 /c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/lib/libopencv_imgproc.so.407 -lauroraapp -lappdir-cpp -lappdir -lappmanifest-glib -lglib-2.0 -pie -rdynamic -lmdeclarativecache5 -lQt5Quick -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -lGLESv2 -lpthread 
+LIBS          = $(SUBLIBS) -lauroraapp -lappdir-cpp -lappdir -lappmanifest-glib -lglib-2.0 -pie -rdynamic -lmdeclarativecache5 -lQt5Quick -lQt5Gui -lQt5Qml -lQt5Network -lQt5Core -lGLESv2 -lpthread 
 AR            = ar cqs
 RANLIB        = 
 SED           = sed
@@ -48,17 +48,21 @@ OBJECTS_DIR   = ./
 
 ####### Files
 
-SOURCES       = ../../src/imageprocessor.cpp \
+SOURCES       = ../../src/imagefilters.cpp \
+		../../src/imageprocessor.cpp \
 		../../src/main.cpp \
 		../../src/neuralstyleengine.cpp \
 		../../src/processingworker.cpp \
-		../../src/resultimageprovider.cpp moc_imageprocessor.cpp \
+		../../src/resultimageprovider.cpp \
+		../../src/segmentationengine.cpp moc_imageprocessor.cpp \
 		moc_processingworker.cpp
-OBJECTS       = imageprocessor.o \
+OBJECTS       = imagefilters.o \
+		imageprocessor.o \
 		main.o \
 		neuralstyleengine.o \
 		processingworker.o \
 		resultimageprovider.o \
+		segmentationengine.o \
 		moc_imageprocessor.o \
 		moc_processingworker.o
 DIST          = ../../rpm/ru.template.CatEditAiProSixSevenSigmaEditor.spec \
@@ -160,15 +164,19 @@ DIST          = ../../rpm/ru.template.CatEditAiProSixSevenSigmaEditor.spec \
 		/usr/share/qt5/mkspecs/features/exceptions.prf \
 		/usr/share/qt5/mkspecs/features/yacc.prf \
 		/usr/share/qt5/mkspecs/features/lex.prf \
-		../../../../ru.template.CatEditAiProSixSevenSigmaEditor.pro ../../src/imageprocessor.h \
+		../../../../ru.template.CatEditAiProSixSevenSigmaEditor.pro ../../src/imagefilters.h \
+		../../src/imageprocessor.h \
 		../../src/neuralstyleengine.h \
 		../../src/processingworker.h \
 		../../src/resultimageprovider.h \
-		../../src/styletransfer.param.bin.h ../../src/imageprocessor.cpp \
+		../../src/segmentationengine.h \
+		../../src/styletransfer.param.bin.h ../../src/imagefilters.cpp \
+		../../src/imageprocessor.cpp \
 		../../src/main.cpp \
 		../../src/neuralstyleengine.cpp \
 		../../src/processingworker.cpp \
-		../../src/resultimageprovider.cpp
+		../../src/resultimageprovider.cpp \
+		../../src/segmentationengine.cpp
 QMAKE_TARGET  = ru.template.CatEditAiProSixSevenSigmaEditor
 DESTDIR       = 
 TARGET        = ru.template.CatEditAiProSixSevenSigmaEditor
@@ -403,8 +411,8 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
-	$(COPY_FILE) --parents ../../src/imageprocessor.h ../../src/neuralstyleengine.h ../../src/processingworker.h ../../src/resultimageprovider.h ../../src/styletransfer.param.bin.h $(DISTDIR)/
-	$(COPY_FILE) --parents ../../src/imageprocessor.cpp ../../src/main.cpp ../../src/neuralstyleengine.cpp ../../src/processingworker.cpp ../../src/resultimageprovider.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents ../../src/imagefilters.h ../../src/imageprocessor.h ../../src/neuralstyleengine.h ../../src/processingworker.h ../../src/resultimageprovider.h ../../src/segmentationengine.h ../../src/styletransfer.param.bin.h $(DISTDIR)/
+	$(COPY_FILE) --parents ../../src/imagefilters.cpp ../../src/imageprocessor.cpp ../../src/main.cpp ../../src/neuralstyleengine.cpp ../../src/processingworker.cpp ../../src/resultimageprovider.cpp ../../src/segmentationengine.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents translations/ru.template.CatEditAiProSixSevenSigmaEditor.ts translations/ru.template.CatEditAiProSixSevenSigmaEditor-ru.ts $(DISTDIR)/
 
 
@@ -434,10 +442,10 @@ compiler_moc_header_make_all: moc_imageprocessor.cpp moc_processingworker.cpp
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_imageprocessor.cpp moc_processingworker.cpp
 moc_imageprocessor.cpp: ../../src/imageprocessor.h
-	/usr/lib64/qt5/bin/moc $(DEFINES) -I/usr/share/qt5/mkspecs/linux-g++ -I/c/Users/stwz13/catedit-aurora -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/modules/core/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/modules/imgproc/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/include -I/usr/include/auroraapp -I/usr/include/appdir-cpp -I/usr/include/appdir -I/usr/include/appmanifest-glib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/mdeclarativecache5 -I/usr/include/qt5 -I/usr/include/qt5/QtQuick -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtQml -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I. -I/usr/include/c++/12.3.1 -I/usr/include/c++/12.3.1/x86_64-meego-linux-gnu -I/usr/include/c++/12.3.1/backward -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed -I/usr/include ../../src/imageprocessor.h -o moc_imageprocessor.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) -I/usr/share/qt5/mkspecs/linux-g++ -I/c/Users/stwz13/catedit-aurora -I/usr/include/auroraapp -I/usr/include/appdir-cpp -I/usr/include/appdir -I/usr/include/appmanifest-glib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/mdeclarativecache5 -I/usr/include/qt5 -I/usr/include/qt5/QtQuick -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtQml -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I. -I/usr/include/c++/12.3.1 -I/usr/include/c++/12.3.1/x86_64-meego-linux-gnu -I/usr/include/c++/12.3.1/backward -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed -I/usr/include ../../src/imageprocessor.h -o moc_imageprocessor.cpp
 
 moc_processingworker.cpp: ../../src/processingworker.h
-	/usr/lib64/qt5/bin/moc $(DEFINES) -I/usr/share/qt5/mkspecs/linux-g++ -I/c/Users/stwz13/catedit-aurora -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/modules/core/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/modules/imgproc/include -I/c/Users/stwz13/catedit-aurora/third_party/opencv/source/include -I/usr/include/auroraapp -I/usr/include/appdir-cpp -I/usr/include/appdir -I/usr/include/appmanifest-glib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/mdeclarativecache5 -I/usr/include/qt5 -I/usr/include/qt5/QtQuick -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtQml -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I. -I/usr/include/c++/12.3.1 -I/usr/include/c++/12.3.1/x86_64-meego-linux-gnu -I/usr/include/c++/12.3.1/backward -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed -I/usr/include ../../src/processingworker.h -o moc_processingworker.cpp
+	/usr/lib64/qt5/bin/moc $(DEFINES) -I/usr/share/qt5/mkspecs/linux-g++ -I/c/Users/stwz13/catedit-aurora -I/usr/include/auroraapp -I/usr/include/appdir-cpp -I/usr/include/appdir -I/usr/include/appmanifest-glib -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/mdeclarativecache5 -I/usr/include/qt5 -I/usr/include/qt5/QtQuick -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtQml -I/usr/include/qt5/QtNetwork -I/usr/include/qt5/QtCore -I. -I/usr/include/c++/12.3.1 -I/usr/include/c++/12.3.1/x86_64-meego-linux-gnu -I/usr/include/c++/12.3.1/backward -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include -I/usr/local/include -I/usr/lib64/gcc/x86_64-meego-linux-gnu/12.3.1/include-fixed -I/usr/include ../../src/processingworker.h -o moc_processingworker.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -451,6 +459,9 @@ compiler_clean: compiler_moc_header_clean
 
 ####### Compile
 
+imagefilters.o: ../../src/imagefilters.cpp ../../src/imagefilters.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o imagefilters.o ../../src/imagefilters.cpp
+
 imageprocessor.o: ../../src/imageprocessor.cpp ../../src/imageprocessor.h \
 		../../src/processingworker.h \
 		../../src/resultimageprovider.h
@@ -458,7 +469,8 @@ imageprocessor.o: ../../src/imageprocessor.cpp ../../src/imageprocessor.h \
 
 main.o: ../../src/main.cpp ../../src/imageprocessor.h \
 		../../src/neuralstyleengine.h \
-		../../src/resultimageprovider.h
+		../../src/resultimageprovider.h \
+		../../src/segmentationengine.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../../src/main.cpp
 
 neuralstyleengine.o: ../../src/neuralstyleengine.cpp ../../src/neuralstyleengine.h \
@@ -466,42 +478,16 @@ neuralstyleengine.o: ../../src/neuralstyleengine.cpp ../../src/neuralstyleengine
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o neuralstyleengine.o ../../src/neuralstyleengine.cpp
 
 processingworker.o: ../../src/processingworker.cpp ../../src/processingworker.h \
+		../../src/imagefilters.h \
 		../../src/neuralstyleengine.h \
-		../../third_party/opencv/source/modules/imgproc/include/opencv2/imgproc.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cvdef.h \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/version.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/hal/interface.h \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cv_cpu_helper.h \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/hal/msa_macros.h \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/fast_math.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/base.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cvstd.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/neon_utils.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/vsx_utils.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/check.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/traits.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/matx.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/saturate.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/types.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/mat.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/bufferpool.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/mat.inl.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/persistence.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/operations.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/cvstd.inl.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/utility.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/utils/instrumentation.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/utils/tls.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/optim.hpp \
-		../../third_party/opencv/source/modules/core/include/opencv2/core/ovx.hpp \
-		../../third_party/opencv/source/modules/imgproc/include/opencv2/imgproc/segmentation.hpp
+		../../src/segmentationengine.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o processingworker.o ../../src/processingworker.cpp
 
 resultimageprovider.o: ../../src/resultimageprovider.cpp ../../src/resultimageprovider.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o resultimageprovider.o ../../src/resultimageprovider.cpp
+
+segmentationengine.o: ../../src/segmentationengine.cpp ../../src/segmentationengine.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o segmentationengine.o ../../src/segmentationengine.cpp
 
 moc_imageprocessor.o: moc_imageprocessor.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_imageprocessor.o moc_imageprocessor.cpp
@@ -511,22 +497,15 @@ moc_processingworker.o: moc_processingworker.cpp
 
 ####### Install
 
-install_opencv_library_install: first FORCE
-	@test -d $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/ || mkdir -p $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/
-	-$(INSTALL_FILE) /c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/lib/libopencv_core.so.407 $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/
-	-$(INSTALL_FILE) /c/Users/stwz13/catedit-aurora/third_party/opencv/build/AuroraOS_5_2_0_180_x86_64_in_aurora_os_build_engine_5_2_0_180_mb2_stwz13-Release/opencv/lib/libopencv_imgproc.so.407 $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/
-
-uninstall_opencv_library_install: FORCE
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/libopencv_imgproc.so.407
-	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/libopencv_core.so.407
-	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/lib/ 
-
-
 install_models_install: first FORCE
 	@test -d $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/ || mkdir -p $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/
 	-$(INSTALL_FILE) /c/Users/stwz13/catedit-aurora/models/mosaic.bin $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/
+	-$(INSTALL_FILE) /c/Users/stwz13/catedit-aurora/models/u2netp.ncnn.param $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/
+	-$(INSTALL_FILE) /c/Users/stwz13/catedit-aurora/models/u2netp.ncnn.bin $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/
 
 uninstall_models_install: FORCE
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/u2netp.ncnn.bin
+	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/u2netp.ncnn.param
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/mosaic.bin
 	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/ru.template.CatEditAiProSixSevenSigmaEditor/models/ 
 
@@ -607,9 +586,9 @@ uninstall_icon172x172: FORCE
 	-$(DEL_DIR) $(INSTALL_ROOT)/usr/share/icons/hicolor/172x172/apps/ 
 
 
-install: install_opencv_library_install install_models_install install_qm install_qml install_target install_desktop install_icon86x86 install_icon108x108 install_icon128x128 install_icon172x172  FORCE
+install: install_models_install install_qm install_qml install_target install_desktop install_icon86x86 install_icon108x108 install_icon128x128 install_icon172x172  FORCE
 
-uninstall: uninstall_opencv_library_install uninstall_models_install uninstall_qm uninstall_qml uninstall_target uninstall_desktop uninstall_icon86x86 uninstall_icon108x108 uninstall_icon128x128 uninstall_icon172x172  FORCE
+uninstall: uninstall_models_install uninstall_qm uninstall_qml uninstall_target uninstall_desktop uninstall_icon86x86 uninstall_icon108x108 uninstall_icon128x128 uninstall_icon172x172  FORCE
 
 FORCE:
 

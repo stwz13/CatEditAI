@@ -6,6 +6,7 @@
 #include "imageprocessor.h"
 #include "neuralstyleengine.h"
 #include "resultimageprovider.h"
+#include "segmentationengine.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,8 +18,12 @@ int main(int argc, char *argv[])
     ResultImageProvider *resultProvider = new ResultImageProvider;
     QScopedPointer<ImageProcessor> imageProcessor(new ImageProcessor(resultProvider));
 
-    NeuralStyleEngine::instance().setModelPath(
-            Aurora::Application::pathTo(QStringLiteral("models/mosaic.bin")).toLocalFile());
+    const QString modelsDir =
+            Aurora::Application::pathTo(QStringLiteral("models")).toLocalFile();
+
+    NeuralStyleEngine::instance().setModelPath(modelsDir + QStringLiteral("/mosaic.bin"));
+    SegmentationEngine::instance().setModelPaths(modelsDir + QStringLiteral("/u2netp.ncnn.param"),
+                                               modelsDir + QStringLiteral("/u2netp.ncnn.bin"));
 
     view->engine()->addImageProvider(QStringLiteral("result"), resultProvider);
     view->rootContext()->setContextProperty(QStringLiteral("imageProcessor"),

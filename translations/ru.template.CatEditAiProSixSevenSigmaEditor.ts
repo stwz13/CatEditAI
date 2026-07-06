@@ -43,8 +43,8 @@
     </message>
     <message>
         <location filename="../src/imageprocessor.cpp" line="108"/>
-        <source>Removing background...</source>
-        <translation>Removing background...</translation>
+        <source>AI segmentation...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/imageprocessor.cpp" line="115"/>
@@ -135,29 +135,19 @@
         <translation>Reset to original</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="109"/>
-        <source>Choose a photo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="110"/>
+        <location filename="../qml/pages/MainPage.qml" line="106"/>
         <source>Gallery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="111"/>
+        <location filename="../qml/pages/MainPage.qml" line="107"/>
         <source>Files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="145"/>
+        <location filename="../qml/pages/MainPage.qml" line="175"/>
         <source>Filters</source>
         <translation>Filters</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="108"/>
-        <source>CatEdit AI</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="86"/>
@@ -165,77 +155,77 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="146"/>
+        <location filename="../qml/pages/MainPage.qml" line="176"/>
         <source>Adjust</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="147"/>
-        <source>Background</source>
-        <translation>Background</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="148"/>
+        <location filename="../qml/pages/MainPage.qml" line="178"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="149"/>
+        <location filename="../qml/pages/MainPage.qml" line="179"/>
         <source>AI Style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="150"/>
+        <location filename="../qml/pages/MainPage.qml" line="177"/>
+        <source>AI Cutout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="180"/>
         <source>B/W</source>
         <translation>B/W</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="151"/>
+        <location filename="../qml/pages/MainPage.qml" line="181"/>
         <source>Sepia</source>
         <translation>Sepia</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="152"/>
+        <location filename="../qml/pages/MainPage.qml" line="182"/>
         <source>Blur</source>
         <translation>Blur</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="153"/>
+        <location filename="../qml/pages/MainPage.qml" line="183"/>
         <source>Sharpen</source>
         <translation>Sharpen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="154"/>
+        <location filename="../qml/pages/MainPage.qml" line="184"/>
         <source>Edges</source>
         <translation>Edges</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="155"/>
+        <location filename="../qml/pages/MainPage.qml" line="185"/>
         <source>Cartoon</source>
         <translation>Cartoon</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="156"/>
+        <location filename="../qml/pages/MainPage.qml" line="186"/>
         <source>Invert</source>
         <translation>Invert</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="157"/>
+        <location filename="../qml/pages/MainPage.qml" line="187"/>
         <source>Light</source>
         <translation>Light</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="158"/>
+        <location filename="../qml/pages/MainPage.qml" line="188"/>
         <source>Contrast</source>
         <translation>Contrast</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="159"/>
+        <location filename="../qml/pages/MainPage.qml" line="189"/>
         <source>Color</source>
         <translation>Color</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="160"/>
+        <location filename="../qml/pages/MainPage.qml" line="190"/>
         <source>Apply</source>
         <translation>Apply</translation>
     </message>
@@ -243,134 +233,144 @@
 <context>
     <name>ProcessingWorker</name>
     <message>
-        <location filename="../src/processingworker.cpp" line="384"/>
+        <location filename="../src/processingworker.cpp" line="229"/>
         <source>Unable to open image</source>
         <translation>Unable to open image</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="384"/>
-        <location filename="../src/processingworker.cpp" line="634"/>
+        <location filename="../src/processingworker.cpp" line="229"/>
+        <location filename="../src/processingworker.cpp" line="497"/>
         <source>Select an image</source>
         <translation type="unfinished">Select an image</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="394"/>
+        <location filename="../src/processingworker.cpp" line="239"/>
         <source>Image loaded. Choose a tool.</source>
         <translation>Image loaded. Choose a tool.</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="411"/>
+        <location filename="../src/processingworker.cpp" line="269"/>
         <source>Unable to remove background</source>
         <translation>Unable to remove background</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="417"/>
-        <source>Background replaced: %1%. Prep: %2 ms, segmentation: %3 ms, post: %4 ms</source>
-        <translation>Background replaced: %1%. Prep: %2 ms, segmentation: %3 ms, post: %4 ms</translation>
-    </message>
-    <message>
-        <location filename="../src/processingworker.cpp" line="436"/>
+        <location filename="../src/processingworker.cpp" line="299"/>
         <source>Auto enhancement applied. Time: %1 ms</source>
         <translation>Auto enhancement applied. Time: %1 ms</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="447"/>
+        <location filename="../src/processingworker.cpp" line="310"/>
         <source>Black and white style applied</source>
         <translation>Black and white style applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="458"/>
+        <location filename="../src/processingworker.cpp" line="321"/>
         <source>Sepia style applied</source>
         <translation>Sepia style applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="469"/>
+        <location filename="../src/processingworker.cpp" line="332"/>
         <source>Blur applied</source>
         <translation>Blur applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="480"/>
+        <location filename="../src/processingworker.cpp" line="343"/>
         <source>Sharpen applied</source>
         <translation>Sharpen applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="491"/>
+        <location filename="../src/processingworker.cpp" line="354"/>
         <source>Edges style applied</source>
         <translation>Edges style applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="502"/>
+        <location filename="../src/processingworker.cpp" line="365"/>
         <source>Cartoon style applied</source>
         <translation>Cartoon style applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="513"/>
+        <location filename="../src/processingworker.cpp" line="376"/>
         <source>Neural style unavailable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="514"/>
+        <location filename="../src/processingworker.cpp" line="377"/>
         <source>Build ncnn and place models/mosaic.bin (see third_party/ncnn/README.md)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="524"/>
+        <location filename="../src/processingworker.cpp" line="387"/>
         <source>Neural style failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="530"/>
+        <location filename="../src/processingworker.cpp" line="393"/>
         <source>Neural style applied. Prep: %1 ms, inference: %2 ms, post: %3 ms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="544"/>
+        <location filename="../src/processingworker.cpp" line="407"/>
         <source>Colors inverted</source>
         <translation>Colors inverted</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="555"/>
-        <location filename="../src/processingworker.cpp" line="584"/>
+        <location filename="../src/processingworker.cpp" line="418"/>
+        <location filename="../src/processingworker.cpp" line="447"/>
         <source>Manual correction applied</source>
         <translation>Manual correction applied</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="579"/>
+        <location filename="../src/processingworker.cpp" line="442"/>
         <source>No correction to apply</source>
         <translation>No correction to apply</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="570"/>
+        <location filename="../src/processingworker.cpp" line="433"/>
         <source>Manual correction preview</source>
         <translation>Manual correction preview</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="594"/>
+        <location filename="../src/processingworker.cpp" line="268"/>
+        <source>AI segmentation failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/processingworker.cpp" line="277"/>
+        <source>AI background removed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/processingworker.cpp" line="278"/>
+        <source>Background replaced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/processingworker.cpp" line="457"/>
         <source>Nothing to undo</source>
         <translation>Nothing to undo</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="599"/>
+        <location filename="../src/processingworker.cpp" line="462"/>
         <source>Last action undone</source>
         <translation>Last action undone</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="611"/>
+        <location filename="../src/processingworker.cpp" line="474"/>
         <source>Reset to original</source>
         <translation>Reset to original</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="622"/>
+        <location filename="../src/processingworker.cpp" line="485"/>
         <source>Unable to export image</source>
         <translation>Unable to export image</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="626"/>
+        <location filename="../src/processingworker.cpp" line="489"/>
         <source>Exported to gallery: %1</source>
         <translation>Exported to gallery: %1</translation>
     </message>
     <message>
-        <location filename="../src/processingworker.cpp" line="634"/>
+        <location filename="../src/processingworker.cpp" line="497"/>
         <source>Select an image first</source>
         <translation>Select an image first</translation>
     </message>
